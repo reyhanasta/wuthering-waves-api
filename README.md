@@ -184,24 +184,6 @@ The base URL for all API endpoints is `http://localhost:3000/api` (assuming `API
 - [mysql2](https://github.com/sidorares/node-mysql2) (MySQL driver)
 - [dotenv](https://github.com/motdotla/dotenv) (Environment variable management)
 
-## Folder Structure (Example)
-
-├── config/
-│ └── db.js # Database connection pool setup
-├── controllers/
-│ ├── userController.js # Logic for user routes
-│ └── characterController.js # Logic for character routes
-├── routes/
-│ ├── userRoutes.js # Defines user API endpoints
-│ └── characterRoutes.js # Defines character API endpoints
-├── .env # Environment variables (ignored by Git)
-├── .env.example # Example environment variables (safe to commit)
-├── .gitignore # Specifies intentionally untracked files
-├── index.js # Main application entry point (Express server setup)
-├── package.json # Project metadata and dependencies
-├── package-lock.json # Dependency tree lock file
-└── README.md # This file
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request or open an Issue.
